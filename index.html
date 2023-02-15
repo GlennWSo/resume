@@ -8,16 +8,16 @@
   <style>
     html {
       line-height: 1.5;
-      font-family: Georgia, serif;
+      font-family: sans-serif;
       font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
     body {
       margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
+      // max-width: 36em;
+      padding-left: 4%;
+      padding-right: 4%;
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
@@ -51,15 +51,22 @@
     .sidebar {
       margin: 0;
       padding: 0;
-      width: 200px;
+      width: 250px;
       background-color: #f1f1f1;
       position: fixed;
+      right: 0;
       height: 100%;
       overflow: auto;
     }
+    #profile-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      // margin-top: 10%;
+    }
     /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
     div.content {
-      margin-left: 200px;
+      margin-right: 250px;
       padding: 1px 16px;
       height: 1000px;
     }
@@ -74,7 +81,7 @@
       color: #1a1a1a;
     }
     img {
-      max-width: 100%;
+      // max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
@@ -177,7 +184,7 @@
 <body>
 
   <div class="sidebar">
-    <p><img title="" src="file:///home/gws/projects/portfolio/profile.jpg" alt=""></p>
+    <img id="profile-img" src="./profile.jpg" alt="profile-img">
     <h3 id="skills">skills</h3>
     <h3 id="contact-links">contact links</h3>
   </div>
@@ -216,9 +223,13 @@
       <h3 id="software-development">Software Development</h3>
 
       <div class="exp">
-        <h4 class="exp-title">CAD tools for dental crowns </h4>
-        <h5 class="duration"><em>long ago to now</em><h5>
-        <p> At <strong>CerInvent</strong> i did stuff</p>
+        <h4 class="exp-title">Develop Desktop CAD Tools</h4>
+        <p class="duration"><em>2022-08 to current</em></p>
+        <p><strong>CerInvent</strong> created desktop application that allows
+        the user to generate molds for manufacturing</p>
+        <h5>Tools</h5>
+        <p>Python, Github, PyQt, ngsolve, gmsh, pyvista, catia, github-actions</p>
+        
       </div>
 
       <div class="exp">
