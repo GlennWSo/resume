@@ -28,11 +28,27 @@
     language is Python, but he prefers to use Rust whenever possible. </p>
 </div>
 
+<div id="work-exp">
+  <h2 id="work-experience">Work Experience</h2>
+  <hr>
 
-{% for page in section.pages %}
-{{ page.title | safe}}
-{{ page.content | safe}}
-{{ page.taxonomies.tags | safe}}
-{% endfor %}
+  {% for page in section.pages %}
+  <div class="exp">
+    <div>
+      <h5 class="exp-title"> {{ page.title | safe}} </h5>
+      <h6 class="date"><em>{{ page.date | safe}}</em></h6>
+    </div>
+    {{ page.content | safe}}
+    <p><strong>Tools: </strong>
+      {% for tag in page.taxonomies.tags %}
+      {{tag}},
+      {% endfor %}
+    </p>
+  </div>
+
+  {% endfor %}
+
+</div>
+
 
 {% endblock content %}

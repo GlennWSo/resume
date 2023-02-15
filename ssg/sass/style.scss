@@ -87,7 +87,7 @@ div.content {
 }
 
 p {
-  margin: 0em 1em 1em;
+  margin: 0em 0em 1em;
 }
 
 a {
@@ -128,15 +128,20 @@ h6 {
   margin-bottom: 0.2em;
 }
 
-h5,
-h6 {
-  font-size: 1em;
-  font-style: italic;
+h5 {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 h6 {
   font-weight: normal;
+  font-size: 0.8em;
+  font-style: italic;
 }
+
+
+
 
 ol,
 ul {
@@ -181,7 +186,7 @@ pre code {
 hr {
   background-color: #1a1a1a;
   border: none;
-  height: 2px;
+  height: 1px;
   margin: 0.2em 0 1em;
 }
 
@@ -219,14 +224,14 @@ header {
 }
 
 .exp {
-  margin: 1em 0 2em 0.5em;
+  margin: 1em 0 2em;
 }
 
 .exp-title {
   display: inline;
 }
 
-.duration {
+.date {
   display: inline;
 }
 
