@@ -10,6 +10,8 @@ mkShell {
         buildPackages.texlive.combined.scheme-medium
         buildPackages.pandoc
         buildPackages.marktext
+        buildPackages.nodePackages.vscode-langservers-extracted
+        buildPackages.zola
     ];
     
     name = "doc tools";
