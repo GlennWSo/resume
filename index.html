@@ -15,7 +15,6 @@
     }
     body {
       margin: 0 auto;
-      // max-width: 36em;
       padding-left: 4%;
       padding-right: 4%;
       padding-top: 50px;
@@ -25,28 +24,11 @@
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    div.content {
+      margin-right: 250px;
+      padding: 1px 16px;
+      // height: 1000px;
     }
     .sidebar {
       margin: 0;
@@ -62,13 +44,36 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      // margin-top: 10%;
     }
-    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-    div.content {
-      margin-right: 250px;
-      padding: 1px 16px;
-      height: 1000px;
+    @media (max-width: 700px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom:0;
+      }
+      div.content {margin-right:0;}
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
     }
 
     p {
@@ -187,7 +192,7 @@
     <img id="profile-img" src="./profile.jpg" alt="profile-img">
     <h3 id="skills">skills</h3>
     <h3 id="contact-links">contact links</h3>
-  </div>
+  </div>  
 
   <div class="content">
   <header>
@@ -263,5 +268,6 @@ projects for the technical and information systems divisions of large
 corporate clients in the industrial, telecommunications and services
 sectors, in more than 25 countries around the world.</p>
 </div>
+  
 </body>
 </html>
