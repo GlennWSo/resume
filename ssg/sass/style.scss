@@ -8,10 +8,10 @@ html {
 
 body {
   margin: 0 auto;
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  // padding-left: 4%;
+  // padding-right: 4%;
+  // padding-top: 50px;
+  // padding-bottom: 50px;
   hyphens: auto;
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
@@ -19,19 +19,8 @@ body {
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-$main_width: 75%;
 
-.content {
-  height: auto;
-  float: right;
-  width: $main_width;
-}
 
-#profile-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 @media (max-width: 700px) {
@@ -291,42 +280,72 @@ ul.task-list {
   margin: 0.5rem auto;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+$side_width: 45%;
+
+#main {
+  width: auto;
+}
 
 #sidebar {
-  width: 100% - $main_width;
+  min-width: 230px;
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%;
   transition: background-color 0, all 0.8s;
   top: 0;
   left: 0;
-  position: fixed;
+  position: sticky;
   z-index: 4;
+  margin-left: 3%;
+  margin-right: 3%;
+
+  #profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
 
   .header {
     padding-top: 50px;
 
-    img {
-      border-radius: 10px;
-    }
+  }
+
+  .content {
+    // position: sticky;
+    // top: 0;
   }
 
   #skills {
-    padding: 10px;
+    // padding: 10px;
+
 
     ul,
     li {
       padding: 0;
       list-style-type: none;
+      display: inline;
+
+      a {
+        text-decoration: none;
+      }
     }
 
     .tag-count {
       font-size: 0.7em;
-      float: right;
-      min-width: 24px;
-      margin-right: 18px;
-      padding-left: 6px;
-      padding-right: 6px;
+      // float: right;
+      // min-width: 24px;
+      margin-left: 0.2em;
+      padding-left: 0.6em;
+      padding-right: 0.6em;
+      padding-top: 0.3em;
+      padding-bottom: 0.1em;
       border-radius: 1em;
       text-align: center;
       color: #fefefe;
