@@ -29,24 +29,30 @@
 </div>
 
 <div id="work-exp">
-  <h2 id="work-experience">Work Experience</h2>
-  <hr>
+  <h3 id="work-experience">Experience</h2>
+    <hr>
 
-  {% for page in section.pages %}
-  <div class="exp">
-    <div>
-      <h5 class="exp-title"> {{ page.title | safe}} </h5>
-      <h6 class="date"><em>{{ page.date | safe}}</em></h6>
+    {% for sub_path in section.subsections%}
+
+    {% set sw_work = get_section(path=sub_path) %}
+    <h1> {{sw_work.title}} </h1>
+    {% for page in sw_work.pages %}
+    <div class="exp">
+      <div>
+        <h5 class="exp-title"> {{ page.title | safe}} </h5>
+        <h6 class="date"><em>{{ page.date | safe}}</em></h6>
+        <h6 class="date"> .. </h6>
+        <h6 class="date"><em>{{ page.extra.duration | safe}}</em></h6>
+      </div>
+      {{ page.content | safe}}
+      <p><strong>Tools: </strong>
+        {% for tag in page.taxonomies.tags %}
+        {{tag}},
+        {% endfor %}
+      </p>
     </div>
-    {{ page.content | safe}}
-    <p><strong>Tools: </strong>
-      {% for tag in page.taxonomies.tags %}
-      {{tag}},
-      {% endfor %}
-    </p>
-  </div>
-
-  {% endfor %}
+    {% endfor %}
+    {% endfor %}
 
 </div>
 
