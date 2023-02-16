@@ -16,6 +16,10 @@
     <img id="profile-img" src="./profile.jpg" alt="profile-img">
     <div id=skills>
       <h3>Skill Tags<h3>
+      {% set tags = get_taxonomy(kind="tags") %}
+      {%for term in tags.items%}
+      <p>{{ term.name }}</p>
+      {% endfor %}
     </div>
     <ul class="social-links">
       <li><a href="https://github.com/GlennWSo" aria-label="Go to Github profile page"><i class="fab fa-github"></i></a>
