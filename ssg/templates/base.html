@@ -12,11 +12,35 @@
 </head>
 
 <body>
-  <section class=section>
-    <div class=container>
+  <div id=sidebar>
+    <img id="profile-img" src="./profile.jpg" alt="profile-img">
+    <div id=skills>
+      <h3>Skill Tags<h3>
+    </div>
+    <ul class="social-links">
+      <li><a href="https://github.com/GlennWSo" aria-label="Go to Github profile page"><i class="fab fa-github"></i></a>
+      </li>
+      <li><a href="https://twitter.com/longfangsong" aria-label="Go to Twitter profile page"><i
+            class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/longfangsong" aria-label="Go to FaceBook profile page"><i
+            class="fab fa-facebook"></i></a></li>
+      <div id="pirate" data-wordart-src="//cdn.wordart.com/json/07ojvp9ogz3m"
+        style="width: 100%; padding-bottom: 50px; position: relative;" data-wordart-show-attribution=""><a
+          class="wordart-anchor tagul-anchor"
+          style="width: 100%; height: 100%; outline: 0; border: 0; background: none; margin: 0; padding: 0;"><canvas
+            class="wordart-canvas tagul-canvas" style="width: 100%; height: 100%" width="346" height="173"></canvas></a>
+        <div class="wordart-attribution tagul-attribution"
+          style="width: 100%; height: 50px; line-height: 50px; position: absolute; bottom: 0; text-align: center"><a
+            href="https://wordart.com/">Powered by WordArt.com</a></div>
+      </div>
+    </ul>
+
+  </div>
+  <div id=main>
+    <div class=content>
       {% block content %} {% endblock %}
     </div>
-  </section>
+  </div>
 </body>
 
 </html>
