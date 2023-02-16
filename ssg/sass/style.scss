@@ -123,19 +123,6 @@ h6 {
 }
 
 
-
-
-ol,
-ul {
-  padding-left: 1.7em;
-  margin-top: 1em;
-}
-
-li>ol,
-li>ul {
-  margin-top: 0;
-}
-
 blockquote {
   margin: 1em 0 1em 1.7em;
   padding-left: 1em;
@@ -218,7 +205,6 @@ header {
 }
 
 .exp-content {
-
   p {
     // display: inline;
   }
@@ -228,8 +214,6 @@ header {
   }
 
 }
-
-
 
 #TOC li {
   list-style: none;
@@ -322,21 +306,29 @@ $side_width: 45%;
     // top: 0;
   }
 
-  #skills {
-    // padding: 10px;
+  ul,
+  ol,
+  li {
+    text-align: left;
+    padding-left: 0;
+  }
 
+  li {
+    list-style-type: none;
 
-    ul,
-    li {
-      padding: 0;
-      list-style-type: none;
-      display: inline;
-
-      a {
-        text-decoration: none;
-      }
+    .tag-count,
+    i {
+      margin-right: 10px;
     }
 
+    a {
+      text-decoration: none;
+    }
+  }
+
+  #skills {
+
+    // padding: 10px;
     .tag-count {
       font-size: 0.7em;
       // float: right;
@@ -353,17 +345,4 @@ $side_width: 45%;
     }
   }
 
-
-  .social-links {
-    list-style: none;
-    padding: 0;
-    font-size: 14px;
-    text-align: center;
-
-    li {
-      display: inline;
-      padding: 0 4px;
-      line-height: 0;
-    }
-  }
 }
