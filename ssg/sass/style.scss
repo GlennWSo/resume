@@ -316,6 +316,11 @@ $side_width: 45%;
   li {
     list-style-type: none;
 
+    .tag-count,
+    i {
+      margin-right: 10px;
+    }
+
     a {
       text-decoration: none;
     }
