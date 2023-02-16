@@ -47,7 +47,7 @@
       {{ page.content | safe}}
       <p><strong>Tools: </strong>
         {% for tag in page.taxonomies.tags %}
-        {{tag}},
+        <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">{{tag}}</a>
         {% endfor %}
       </p>
     </div>
