@@ -41,7 +41,10 @@
         {% set tags = get_taxonomy(kind="tags") %}
         <ul id="tag-list">
           {%for term in tags.items%}
-          <li><a href={{term.permalink}}><span class="tag-count">{{term.pages | length}}</span>{{term.name}}</a>
+          <li class="tag">
+            <div>
+              <a href={{term.permalink}}>{{term.name}}</a>
+            </div>
           </li>
           {% endfor %}
         </ul>

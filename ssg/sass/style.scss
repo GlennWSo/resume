@@ -266,7 +266,6 @@ $off_white: #f0f3f6;
   height: 100%;
   transition: background-color 0, all 0.8s;
   top: 0;
-  left: 0;
   position: sticky;
   z-index: 4;
   padding-left: 3%;
@@ -314,7 +313,7 @@ $off_white: #f0f3f6;
   }
 
   li {
-    display: inherit;
+    display: block;
   }
 
   .contact {}
@@ -325,7 +324,7 @@ $off_white: #f0f3f6;
     #tag-list,
     .contact,
     .header {
-      display: inline;
+      display: inline-block;
     }
   }
 
@@ -338,19 +337,51 @@ $off_white: #f0f3f6;
 
     padding-bottom: 1.3em;
 
-    .tag-count {
-      font-size: 0.7em;
-      // float: right;
-      // min-width: 24px;
-      margin-left: 0.2em;
-      padding-left: 0.6em;
-      padding-right: 0.6em;
-      padding-top: 0.3em;
-      padding-bottom: 0.1em;
-      border-radius: 1em;
-      text-align: center;
-      background: $light_blue;
+    ul {
+      line-height: 1.3em;
     }
+
+
+    li {
+      display: inherit;
+      margin: 0;
+
+      div {
+        display: inherit;
+        padding: 0.2em;
+      }
+
+      a {
+        margin: -0.5em;
+        font-size: 0.8em;
+        margin-right: 0.2em;
+        padding: 0.2em 1em;
+        border-radius: 1em;
+        text-align: center;
+        background: $light_blue;
+      }
+    }
+
+    :hover.tag {
+      // margin: 10px;
+
+      div {
+        padding: 5px 5px;
+        // margin: 10px;
+      }
+
+      a {
+        background: $accent_blue;
+        padding: 0.3em 1em;
+      }
+    }
+
+    :hover li {
+      // margin: 10px;
+      // line-height: 4px;
+      // height: 30px;
+    }
+
   }
 
 }
