@@ -1,3 +1,8 @@
+$dark_blue: #043962;
+$light_blue: #008bd2;
+$accent_blue: #33a9de;
+$off_white: #f0f3f6;
+
 html {
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
@@ -92,6 +97,9 @@ h6 {
   font-size: 0.8em;
   font-style: italic;
 }
+
+
+
 
 
 blockquote {
@@ -244,15 +252,20 @@ ul.task-list {
 
 #main {
   padding: 0 5%;
+
   // padding-left: 3%;
   // padding-right: 3%;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $dark_blue;
+  }
 }
 
 
-$dark_blue: #043962;
-$light_blue: #008bd2;
-$accent_blue: #33a9de;
-$off_white: #f0f3f6;
 
 #sidebar {
   min-width: 230px;

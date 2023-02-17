@@ -20,7 +20,7 @@
     those to solve problems related to 3D graphics, modeling and physics
     simulations.</p>
 
-  <h5>Background:</h5>
+  <h4>Background:</h4>
   <p> He started his carrier as mechanical engineer, but has now changed tracks to software
     development. The reason behind this change was simple, he loves to create
     and to iterate fast! Glenn found his love for programing when he studied
@@ -29,13 +29,12 @@
 </div>
 
 <div id="work-exp">
-  <h3 id="work-experience">Experience</h2>
-    <hr>
 
     {% for sub_path in section.subsections%}
 
     {% set sw_work = get_section(path=sub_path) %}
-    <h1> {{sw_work.title}} </h1>
+    <h2> {{sw_work.title}} </h2>
+    <hr>
     {% for page in sw_work.pages %}
     <div class="exp">
       <div class=exp-header>
