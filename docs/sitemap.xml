@@ -4,30 +4,56 @@
         <loc>https://glennwso.github.io/resume/</loc>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/blog/</loc>
+        <loc>https://glennwso.github.io/resume/other/</loc>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/blog/first/</loc>
-        <lastmod>2019-11-27</lastmod>
-    </url>
-    <url>
-        <loc>https://glennwso.github.io/resume/blog/second/</loc>
-        <lastmod>2019-11-28</lastmod>
-    </url>
-    <url>
-        <loc>https://glennwso.github.io/resume/cerinvent1/</loc>
+        <loc>https://glennwso.github.io/resume/other/cerinvent1/</loc>
         <lastmod>2022-08-01</lastmod>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/first/</loc>
-        <lastmod>2019-11-27</lastmod>
+        <loc>https://glennwso.github.io/resume/other/cerinvent2/</loc>
+        <lastmod>2022-08-01</lastmod>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/second/</loc>
-        <lastmod>2019-11-28</lastmod>
+        <loc>https://glennwso.github.io/resume/sw_work/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/sw_work/cerinvent1/</loc>
+        <lastmod>2022-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/sw_work/cerinvent2/</loc>
+        <lastmod>2022-08-01</lastmod>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/112/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/12/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/123/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/2/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/22/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/3/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/312/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/3123/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/41/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/catia/</loc>
@@ -36,16 +62,10 @@
         <loc>https://glennwso.github.io/resume/tags/ci/</loc>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/tags/demo/</loc>
-    </url>
-    <url>
         <loc>https://glennwso.github.io/resume/tags/github/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/gmsh/</loc>
-    </url>
-    <url>
-        <loc>https://glennwso.github.io/resume/tags/markdown/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/pymadcad/</loc>
