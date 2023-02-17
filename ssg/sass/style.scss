@@ -23,28 +23,6 @@ body {
 
 
 
-@media (max-width: 700px) {
-  body {
-    font-size: 0.9em;
-    padding: 1em;
-  }
-
-  h1 {
-    font-size: 1.8em;
-  }
-
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 0;
-  }
-
-  div.content {
-    margin-right: 0;
-  }
-}
-
 @media print {
   body {
     background-color: transparent;
@@ -270,14 +248,19 @@ ul.task-list {
 }
 
 
-$side_width: 45%;
 
 #main {
-  width: auto;
+  padding-left: 3%;
 }
 
+
+$dark_blue: #043962;
+$light_blue: #008bd2;
+$accent_blue: #33a9de;
+$off_white: #f0f3f6;
+
 #sidebar {
-  min-width: 230px;
+  min-width: 200px;
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%;
@@ -286,31 +269,28 @@ $side_width: 45%;
   left: 0;
   position: sticky;
   z-index: 4;
-  margin-left: 3%;
-  margin-right: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: $dark_blue;
+  color: white;
+
+  // font-color: white;
+  a {
+    color: white;
+  }
+
 
   #profile-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border: 3px solid white;
   }
+
 
   .header {
     padding-top: 50px;
 
-  }
-
-  .content {
-    // position: sticky;
-    // top: 0;
-  }
-
-  ul,
-  ol,
-  li {
-    text-align: left;
-    padding-left: 0;
   }
 
   li {
@@ -326,9 +306,38 @@ $side_width: 45%;
     }
   }
 
+  ul,
+  ol,
+  li {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  li {
+    display: inherit;
+  }
+
+  .contact {}
+
+  @media (max-width: 700px) {
+    position: none;
+
+    #tag-list,
+    .contact,
+    .header {
+      display: inline;
+    }
+  }
+
+  .content {
+    // position: sticky;
+    // top: 0;
+  }
+
   #skills {
 
-    // padding: 10px;
+    padding-bottom: 1.3em;
+
     .tag-count {
       font-size: 0.7em;
       // float: right;
@@ -340,9 +349,23 @@ $side_width: 45%;
       padding-bottom: 0.1em;
       border-radius: 1em;
       text-align: center;
-      color: #fefefe;
-      background: gray;
+      background: $light_blue;
     }
+  }
+
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    display: revert;
+  }
+
+  body {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.8em;
   }
 
 }
