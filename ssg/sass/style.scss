@@ -7,11 +7,7 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  // padding-left: 4%;
-  // padding-right: 4%;
-  // padding-top: 50px;
-  // padding-bottom: 50px;
+  margin: 0;
   hyphens: auto;
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
@@ -19,9 +15,6 @@ body {
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-
-
-
 
 @media print {
   body {
@@ -250,7 +243,9 @@ ul.task-list {
 
 
 #main {
-  padding-left: 3%;
+  padding: 0 5%;
+  // padding-left: 3%;
+  // padding-right: 3%;
 }
 
 
@@ -260,7 +255,7 @@ $accent_blue: #33a9de;
 $off_white: #f0f3f6;
 
 #sidebar {
-  min-width: 200px;
+  min-width: 230px;
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%;
@@ -278,12 +273,12 @@ $off_white: #f0f3f6;
     color: white;
   }
 
-
   #profile-img {
-    display: block;
+    display: inherit;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 2em;
     border: 3px solid white;
+    border-radius: 12px;
   }
 
 
@@ -320,6 +315,8 @@ $off_white: #f0f3f6;
 
   @media (max-width: 700px) {
     position: none;
+    padding-left: 5%;
+    padding-right: 5%;
 
     #tag-list,
     .contact,
@@ -366,13 +363,15 @@ $off_white: #f0f3f6;
       // margin: 10px;
 
       div {
-        padding: 5px 5px;
+        padding-left: 5px;
+        padding-right: 5px;
         // margin: 10px;
       }
 
       a {
         background: $accent_blue;
-        padding: 0.3em 1em;
+        padding-left: 1.2em;
+        paddingright: 1.2em;
       }
     }
 
