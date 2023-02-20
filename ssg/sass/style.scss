@@ -2,6 +2,7 @@ $dark_blue: #043962;
 $light_blue: #008bd2;
 $accent_blue: #33a9de;
 $off_white: #f0f3f6;
+$red: #eb212e;
 
 html {
   line-height: 1.5;
@@ -136,7 +137,7 @@ pre code {
 }
 
 hr {
-  background-color: #1a1a1a;
+  background-color: $dark_blue;
   border: none;
   height: 1px;
   margin: 0.2em 0 1em;
@@ -170,35 +171,46 @@ td {
   padding: 0.125em 0.5em 0.25em 0.5em;
 }
 
-header {
-  margin-top: 100px;
-  margin-bottom: 4em;
-  text-align: center;
 
-  hr,
-  h1,
-  h2,
-  div {
-    margin: 0;
-  }
-
-  #my-name {}
-
-  #my-title {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-}
 
 .exp {
   margin: 1em 0 2em;
 
-  p {
-    margin: 0;
-  }
 
+
+  .exp-content {
+
+    a {
+      color: $light_blue;
+      text-decoration: none;
+      font-size: 0.9em;
+
+    }
+
+    a:visited {
+      color: $light_blue;
+    }
+
+    a::before {
+      content: '\f08E';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      margin: 0px 2px 0px 0px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    h4,
+    h5,
+    h6 {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+    }
+
+  }
 
   .tag-list {
     display: inline-block;
@@ -295,6 +307,24 @@ div.hanging-indent {
   }
 }
 
+header {
+  margin-top: 100px;
+  margin-bottom: 4em;
+  // text-align: center;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: -0.7em;
+  }
+
+  #my-name {}
+
+  #my-title {
+    color: $light_blue;
+  }
+}
 
 li.tag {
   display: inherit;
@@ -355,12 +385,27 @@ ul.tag-list {
     color: white;
   }
 
+  #profile-join {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
   #profile-img {
-    display: inherit;
-    margin-left: auto;
-    margin-right: 2em;
+    // margin-left: auto;
+    // margin-right: 2em;
     border: 3px solid white;
     border-radius: 12px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  #logo {
+    position: absolute;
+    top: 115px;
+    left: 28px;
+    scale: 60%;
   }
 
 
@@ -368,12 +413,17 @@ ul.tag-list {
     padding-top: 50px;
   }
 
+  h2,
+  h3 {
+    margin-bottom: 0;
+  }
+
 
   ul,
-  ol,
-  li {
+  ol {
     text-align: left;
     padding-left: 0;
+    margin-top: 0;
   }
 
 
@@ -412,17 +462,6 @@ ul.tag-list {
     // position: sticky;
     // top: 0;
   }
-
-
-  #skills {
-
-    padding-bottom: 1.3em;
-
-
-
-
-  }
-
 }
 
 @media (max-width: 800px) {

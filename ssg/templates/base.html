@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?
   family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+  <link rel="short icon" href="{{ get_url(path="favicon-alten.png") }}" type="image/x-icon">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -22,9 +23,12 @@
 
     <div id=sidebar>
       <div class=header>
-        <img id="profile-img" src="{{ get_url(path="profile.jpg") }}" alt="profile-img">
+        <div id="profile-join">
+          <img id="profile-img" src="{{ get_url(path="profile.jpg") }}" alt="profile-img">
+          <img id="logo" src="{{ get_url(path="ALTEN-logo300.png") }}" alt="alten-logo">
+        </div>
         <div class=contact>
-          <h3>Lets Talk</h3>
+          <h2>Lets Talk</h2>
           <ul class="social-links">
             <li><a href="https://github.com/GlennWSo" aria-label="Go to Github profile page">
                 <i class="fab fa-github"></i>GlennWSo</a></li>
@@ -37,7 +41,7 @@
       </div>
 
       <div id=skills>
-        <h3>#Skills...</h3>
+        <h3>Skills</h3>
         {% set tags = get_taxonomy(kind="tags") %}
         <ul class="tag-list">
           {%for term in tags.items%}
