@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?
   family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+  <link rel="short icon" href="{{ get_url(path="favicon-alten.png") }}" type="image/x-icon">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -22,7 +23,10 @@
 
     <div id=sidebar>
       <div class=header>
-        <img id="profile-img" src="{{ get_url(path="profile.jpg") }}" alt="profile-img">
+        <div id="profile-join">
+          <img id="profile-img" src="{{ get_url(path="profile.jpg") }}" alt="profile-img">
+          <img id="logo" src="{{ get_url(path="ALTEN-logo300.png") }}" alt="alten-logo">
+        </div>
         <div class=contact>
           <h2>Lets Talk</h2>
           <ul class="social-links">

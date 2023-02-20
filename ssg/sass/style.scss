@@ -387,10 +387,18 @@ ul.tag-list {
 
   #profile-img {
     display: inherit;
-    margin-left: auto;
-    margin-right: 2em;
+    // margin-left: auto;
+    // margin-right: 2em;
     border: 3px solid white;
     border-radius: 12px;
+  }
+
+  #logo {
+    position: absolute;
+    top: 165px;
+    left: 60px;
+    scale: 50%;
+    margin-right: -50px;
   }
 
 
