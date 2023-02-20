@@ -42,30 +42,7 @@
     <h2> {{section.title}} </h2>
     <hr>
     {% for page in section.pages %}
-    <div class="exp">
-      <div class=exp-header>
-        <h4 class="exp-title"> {{ page.title | safe}} </h5>
-        <h6 class="date">
-          <em>
-            {{ page.date | safe}}
-            ..
-            {{ page.extra.duration | safe}}
-          </em>
-        </h6>
-      </div>
-      <div class="exp-content">
-        {{ page.content | safe}}
-      </div>
-        <ul class=tag-list>
-        {% for tag in page.taxonomies.tags %}
-        <li class="tag">
-          <div >
-            <a href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">{{tag}}</a>
-          </div>
-        {% endfor %}
-        </ul>
-      </p>
-    </div>
+      {% include "exp.html" %}
     {% endfor %}
     {% endfor %}
 
