@@ -2,6 +2,7 @@ $dark_blue: #043962;
 $light_blue: #008bd2;
 $accent_blue: #33a9de;
 $off_white: #f0f3f6;
+$red: #eb212e;
 
 html {
   line-height: 1.5;
@@ -136,7 +137,7 @@ pre code {
 }
 
 hr {
-  background-color: #1a1a1a;
+  background-color: $dark_blue;
   border: none;
   height: 1px;
   margin: 0.2em 0 1em;
@@ -170,27 +171,7 @@ td {
   padding: 0.125em 0.5em 0.25em 0.5em;
 }
 
-header {
-  margin-top: 100px;
-  margin-bottom: 4em;
-  text-align: center;
 
-  hr,
-  h1,
-  h2,
-  div {
-    margin: 0;
-  }
-
-  #my-name {}
-
-  #my-title {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-}
 
 .exp {
   margin: 1em 0 2em;
@@ -326,6 +307,24 @@ div.hanging-indent {
   }
 }
 
+header {
+  margin-top: 100px;
+  margin-bottom: 4em;
+  // text-align: center;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: -0.7em;
+  }
+
+  #my-name {}
+
+  #my-title {
+    color: $light_blue;
+  }
+}
 
 li.tag {
   display: inherit;
