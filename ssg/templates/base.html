@@ -37,9 +37,9 @@
       </div>
 
       <div id=skills>
-        <h3>#Skills</h3>
+        <h3>#Skills...</h3>
         {% set tags = get_taxonomy(kind="tags") %}
-        <ul id="tag-list">
+        <ul class="tag-list">
           {%for term in tags.items%}
           <li class="tag">
             <div>
