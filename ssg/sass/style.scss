@@ -190,6 +190,17 @@ header {
 
 .exp {
   margin: 1em 0 2em;
+
+  p {
+    margin: 0;
+  }
+
+
+  .tag-list {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .exp-title {
@@ -283,6 +294,41 @@ ul.task-list {
 }
 
 
+li.tag {
+  display: inherit;
+  margin: 0;
+
+  div {
+    display: inherit;
+    padding: 0.2em;
+  }
+
+
+  a {
+    margin: -0.5em;
+    font-size: 0.8em;
+    margin-right: 0.2em;
+    padding: 0.2em 1em;
+    border-radius: 1em;
+    text-align: center;
+    color: white;
+    background: $light_blue;
+    text-decoration: none;
+  }
+}
+
+:hover.tag {
+  div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  a {
+    background: $accent_blue;
+    padding-left: 1.2em;
+    paddingright: 1.2em;
+  }
+}
 
 #sidebar {
   min-width: 230px;
@@ -298,7 +344,6 @@ ul.task-list {
   background: $dark_blue;
   color: white;
 
-  // font-color: white;
   a {
     color: white;
   }
@@ -314,22 +359,8 @@ ul.task-list {
 
   .header {
     padding-top: 50px;
-
-
   }
 
-  li {
-    list-style-type: none;
-
-    .tag-count,
-    i {
-      margin-right: 10px;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
 
   ul,
   ol,
@@ -338,11 +369,25 @@ ul.task-list {
     padding-left: 0;
   }
 
-  li {
-    display: block;
-  }
 
-  .contact {}
+  ul.social-links {
+    color: white;
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+    }
+
+    :hover {
+      a {
+        color: $accent_blue;
+      }
+    }
+
+    i {
+      margin-right: 5px;
+    }
+  }
 
   @media (max-width: 800px) {
     position: none;
@@ -361,6 +406,7 @@ ul.task-list {
     // top: 0;
   }
 
+
   #skills {
 
     padding-bottom: 1.3em;
@@ -370,47 +416,6 @@ ul.task-list {
     }
 
 
-    li {
-      display: inherit;
-      margin: 0;
-
-      div {
-        display: inherit;
-        padding: 0.2em;
-      }
-
-      a {
-        margin: -0.5em;
-        font-size: 0.8em;
-        margin-right: 0.2em;
-        padding: 0.2em 1em;
-        border-radius: 1em;
-        text-align: center;
-        background: $light_blue;
-      }
-    }
-
-    :hover.tag {
-      // margin: 10px;
-
-      div {
-        padding-left: 5px;
-        padding-right: 5px;
-        // margin: 10px;
-      }
-
-      a {
-        background: $accent_blue;
-        padding-left: 1.2em;
-        paddingright: 1.2em;
-      }
-    }
-
-    :hover li {
-      // margin: 10px;
-      // line-height: 4px;
-      // height: 30px;
-    }
 
   }
 

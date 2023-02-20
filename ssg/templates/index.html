@@ -35,7 +35,8 @@
 
 <div id="work-exp">
 
-    {% for sub_path in section.subsections%}
+    <!-- sort subsection by path to content -->
+    {% for sub_path in section.subsections | sort%}
 
     {% set section = get_section(path=sub_path) %}
     <h2> {{section.title}} </h2>
@@ -55,10 +56,14 @@
       <div class="exp-content">
         {{ page.content | safe}}
       </div>
-      <p><strong>Tools: </strong>
+        <ul class=tag-list>
         {% for tag in page.taxonomies.tags %}
-        <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">{{tag}}</a>
+        <li class="tag">
+          <div >
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">{{tag}}</a>
+          </div>
         {% endfor %}
+        </ul>
       </p>
     </div>
     {% endfor %}
