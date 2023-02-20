@@ -8,5 +8,7 @@
   {% include "exp.html" %}
 {% endfor %}
 
-<a href="{{ get_url(path="{{ config.base_url }}") }}"> Home</a>
+<a id="home" href={{ config.base_url }}>
+  <i class="fa-solid fa-arrow-up-right-from-square"></i>home
+</a>
 {% endblock content %}

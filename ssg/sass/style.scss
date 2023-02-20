@@ -48,6 +48,10 @@ p {
 
 a {
   color: #1a1a1a;
+
+  i {
+    margin: 5px;
+  }
 }
 
 a:visited {
@@ -261,9 +265,6 @@ div.hanging-indent {
   text-indent: -1.5em;
 }
 
-ul.task-list {
-  list-style: none;
-}
 
 .display.math {
   display: block;
@@ -279,10 +280,11 @@ ul.task-list {
 
 
 #main {
-  padding: 0 5%;
+  padding-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 
-  // padding-left: 3%;
-  // padding-right: 3%;
   h1,
   h2,
   h3,
@@ -315,6 +317,11 @@ li.tag {
     background: $light_blue;
     text-decoration: none;
   }
+}
+
+ul.tag-list {
+  list-style: none;
+  line-height: 1.1em;
 }
 
 :hover.tag {
@@ -411,9 +418,6 @@ li.tag {
 
     padding-bottom: 1.3em;
 
-    ul {
-      line-height: 1.3em;
-    }
 
 
 
