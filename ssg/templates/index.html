@@ -13,6 +13,7 @@
 
 <div id=bio>
   <h2 id="bio">About Me</h2>
+  <hr>
   <p>Glenn is a passionate software developer, he even codes electric sheep
     to fall asleep. His multidisciplinary background helps him understand the needs
     and challenges that people of different backgrounds face. This makes him an
@@ -36,10 +37,10 @@
 
     {% for sub_path in section.subsections%}
 
-    {% set sw_work = get_section(path=sub_path) %}
-    <h2> {{sw_work.title}} </h2>
+    {% set section = get_section(path=sub_path) %}
+    <h2> {{section.title}} </h2>
     <hr>
-    {% for page in sw_work.pages %}
+    {% for page in section.pages %}
     <div class="exp">
       <div class=exp-header>
         <h4 class="exp-title"> {{ page.title | safe}} </h5>
