@@ -195,10 +195,19 @@ header {
 .exp {
   margin: 1em 0 2em;
 
-  p {
-    margin: 0;
-  }
+  .exp-content {
+    p {
+      margin: 0;
+    }
 
+    h4,
+    h5,
+    h6 {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+    }
+
+  }
 
   .tag-list {
     display: inline-block;
