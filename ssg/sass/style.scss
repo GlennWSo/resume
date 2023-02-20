@@ -195,7 +195,29 @@ header {
 .exp {
   margin: 1em 0 2em;
 
+
+
   .exp-content {
+
+    a {
+      color: $light_blue;
+      text-decoration: none;
+      font-size: 0.9em;
+
+    }
+
+    a:visited {
+      color: $light_blue;
+    }
+
+    a::before {
+      content: '\f08E';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      margin: 0px 2px 0px 0px;
+    }
+
     p {
       margin: 0;
     }
