@@ -1,6 +1,6 @@
 +++
 title = "Daily Driver: Nixos"
-date = 2023-12-01
+date = 2022-11-01
 [taxonomies]
 tags = ["Linux", "Nix"]
 [extra]
