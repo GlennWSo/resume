@@ -5,4 +5,4 @@ template = "blog.html"
 page_template = "blog-page.html"
 +++
 
-Varius projects that Glenn has worked on for fun.
+Mostly for fun
