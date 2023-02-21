@@ -37,6 +37,7 @@
     {% set section = get_section(path=sub_path) %}
     <h2> {{section.title}} </h2>
     <hr>
+    <div> {{ section.content | safe}} </div>
     {% for page in section.pages %}
       {% include "exp.html" %}
     {% endfor %}
