@@ -171,11 +171,25 @@ td {
 }
 
 
+.exp-section {
+  .section-content p {
+    font-style: italic;
+  }
+
+  header {
+    margin-top: 3.0em;
+    margin-bottom: 0.8em;
+
+    h2,
+    hr {
+      margin: 0;
+    }
+  }
+
+}
 
 .exp {
   margin: 1em 0 2em;
-
-
 
   .exp-content {
 
