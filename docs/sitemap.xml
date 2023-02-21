@@ -15,18 +15,83 @@
         <lastmod>2022-08-01</lastmod>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/other/</loc>
+        <loc>https://glennwso.github.io/resume/1sw_work/helge-nyberg/</loc>
+        <lastmod>2019-03-01</lastmod>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/other/cerinvent1/</loc>
-        <lastmod>2022-08-01</lastmod>
+        <loc>https://glennwso.github.io/resume/1sw_work/multi4/</loc>
+        <lastmod>2021-09-01</lastmod>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/other/cerinvent2/</loc>
-        <lastmod>2022-08-01</lastmod>
+        <loc>https://glennwso.github.io/resume/1sw_work/orthovelox/</loc>
+        <lastmod>2020-12-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/1sw_work/paprtect/</loc>
+        <lastmod>2021-05-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/1sw_work/progressive-safety/</loc>
+        <lastmod>2020-12-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/2other/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/2other/husqvarna/</loc>
+        <lastmod>2022-04-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/2other/ju/</loc>
+        <lastmod>2015-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/2other/thule/</loc>
+        <lastmod>2018-04-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/2other/wingplast/</loc>
+        <lastmod>2020-03-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/4fun/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/4fun/madcad/</loc>
+        <lastmod>2012-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/education/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/education/bachelor/</loc>
+        <lastmod>2012-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/education/master/</loc>
+        <lastmod>2016-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/education/solorcar/</loc>
+        <lastmod>2014-08-01</lastmod>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/arduino/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/arrex/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/azure/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/bluetooth/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/c/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/catia/</loc>
@@ -35,13 +100,13 @@
         <loc>https://glennwso.github.io/resume/tags/ci-cd/</loc>
     </url>
     <url>
-        <loc>https://glennwso.github.io/resume/tags/ci/</loc>
-    </url>
-    <url>
         <loc>https://glennwso.github.io/resume/tags/digitalocean/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/docker/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/fea/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/flask/</loc>
@@ -56,16 +121,37 @@
         <loc>https://glennwso.github.io/resume/tags/keras/</loc>
     </url>
     <url>
+        <loc>https://glennwso.github.io/resume/tags/kicad/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/labview/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/mastercam/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/math/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/matlab/</loc>
+    </url>
+    <url>
         <loc>https://glennwso.github.io/resume/tags/numpy/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/pandas/</loc>
     </url>
     <url>
+        <loc>https://glennwso.github.io/resume/tags/plc/</loc>
+    </url>
+    <url>
         <loc>https://glennwso.github.io/resume/tags/pymadcad/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/pyqt/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/pytest/</loc>
     </url>
     <url>
         <loc>https://glennwso.github.io/resume/tags/python/</loc>
@@ -80,6 +166,21 @@
         <loc>https://glennwso.github.io/resume/tags/scipy/</loc>
     </url>
     <url>
+        <loc>https://glennwso.github.io/resume/tags/smarteam/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/solidworks/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/teams/</loc>
+    </url>
+    <url>
         <loc>https://glennwso.github.io/resume/tags/tensorflow/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/visual-basic/</loc>
+    </url>
+    <url>
+        <loc>https://glennwso.github.io/resume/tags/yapdm/</loc>
     </url>
 </urlset>
