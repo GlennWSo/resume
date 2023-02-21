@@ -9,5 +9,5 @@ duration = 2022-02-01
 
 Developed **Multi4**, a device for taking biopsy samples for cancerdiagnostics.
 
-###### Role & Respolsabilties
+###### Role & Responsibilities
 Firmware for embedded device, mechanical design, protyping and testing.
