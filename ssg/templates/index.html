@@ -29,18 +29,24 @@
     language is Python, but he prefers to use Rust whenever possible. </p>
 </div>
 
-<div id="work-exp">
+<div id="exp-sections">
 
     <!-- sort subsection by path to content -->
     {% for sub_path in section.subsections | sort%}
 
     {% set section = get_section(path=sub_path) %}
-    <h2> {{section.title}} </h2>
-    <hr>
-    <div> {{ section.content | safe}} </div>
-    {% for page in section.pages %}
-      {% include "exp.html" %}
-    {% endfor %}
+    <div class="exp-section">
+        <header>
+          <h2> {{section.title}} </h2>
+          <hr>
+        </header>
+      <div class="section-content">
+        {{ section.content | safe}}
+      </div>
+      {% for page in section.pages %}
+        {% include "exp.html" %}
+      {% endfor %}
+    </div>
     {% endfor %}
 
 </div>
