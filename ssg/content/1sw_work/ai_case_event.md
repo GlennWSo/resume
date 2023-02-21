@@ -10,5 +10,5 @@ duration = "ongoing"
 Helped **Alten** attract students by preparing a workshop for Machine-Learning master students.
 [Repository](https://github.com/alten-se/case-event)
 
-###### Role & Respolsabilties
+###### Role & Responsibilities
 Preparation of source code and data for the event. Deployment example using Flask.
