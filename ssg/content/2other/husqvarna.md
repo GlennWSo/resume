@@ -7,8 +7,9 @@ tags = [ "CATIA", "SmarTeam", "Teams" ]
 duration = 2021-01-01
 +++
 
-Helped **Husqvarna** with product maintence and development of motor
+Helped **Husqvarna** with product maintenance and development of motor
 controllers, HMI panels and motors used in handheld battery powered products.
 
 ###### Role & Responsibilities
-Coordinated productdevelopment between diffrent **Husqvarna** sites and subcontractors. Mechanical design and config management of mechatronic componets.
+
+Coordinated product development between different **Husqvarna** sites and subcontractors. Mechanical design and config management of mechatronic components.

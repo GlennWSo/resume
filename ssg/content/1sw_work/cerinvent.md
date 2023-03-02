@@ -7,5 +7,4 @@ tags = ["Python", "NumPy", "SciPy", "PyQt", "PyMadCad", "Gmsh", "PyVista", "CATI
 duration = "ongoing"
 +++
 
-
 **CerInvent** created application that allows the user to generate molds for manufacturing dental crown

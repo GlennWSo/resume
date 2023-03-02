@@ -8,7 +8,8 @@ duration = 2019-08-01
 +++
 
 Helped **Helge Nyberg** a electric forklift for indoor use. 
-The forklift use force sensors instead of a convetional user interface.
+The forklift use force sensors instead of a conventional user interface.
 
 ###### Role & Responsibilities
-Mechatronic design. Firmware for processing user imput to actions and emulation of inertia.
+
+Mechatronic design. Firmware for processing user input to actions and emulation of inertia.

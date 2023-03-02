@@ -8,4 +8,3 @@ duration = 2017-06-01
 +++
 
 At **Jönköping University** he studied product development, materials engineering and design automation.
-

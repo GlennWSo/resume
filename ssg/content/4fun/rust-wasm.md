@@ -8,4 +8,4 @@ duration = 2023-01-10
 +++
 
 Implemented [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-as a webb [app](https://glennwso.github.io/wasm-life/) using rust. [Repo](https://github.com/GlennWSo/wasm-life)
+as a web [app](https://glennwso.github.io/wasm-life/) using rust. [Repo](https://github.com/GlennWSo/wasm-life)

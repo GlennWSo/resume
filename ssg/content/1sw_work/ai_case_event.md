@@ -11,4 +11,5 @@ Helped **Alten** attract students by preparing a workshop for Machine-Learning m
 [Repository](https://github.com/alten-se/case-event)
 
 ###### Role & Responsibilities
+
 Preparation of source code and data for the event. Deployment example using Flask.
