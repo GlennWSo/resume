@@ -463,7 +463,8 @@ ul.tag-list {
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px),
+  (orientation: portrait) {
     // position: none;
     padding-left: 5%;
     padding-right: 5%;
