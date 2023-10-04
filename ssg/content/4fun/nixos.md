@@ -1,5 +1,5 @@
 +++
-title = "Daily Driver: Nixos"
+title = "Daily Driver: NixOS"
 date = 2022-11-01
 [taxonomies]
 tags = ["Linux", "Nix"]
@@ -7,5 +7,4 @@ tags = ["Linux", "Nix"]
 duration = "ongoing"
 +++
 
-Glenn started using Linux for both work and personal projects to make handling the various tool-chains easier.
-Now he uses NixOs for the robust development environments it offer.
+Glenn use Linux for both work and personal projects. Currently he uses NixOS and benefits from the robust development environments it offer.
