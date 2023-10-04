@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: cv.glennwso.com/sitemap.xml
+Sitemap: /sitemap.xml
