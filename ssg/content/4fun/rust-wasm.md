@@ -2,7 +2,7 @@
 title = "WASM Web App"
 date = 2023-01-01
 [taxonomies]
-tags = ["WASM", "Rust", "JavaScript", "HTML", "CSS", "GitHub"]
+tags = ["WASM", "Rust", "HTML", "CSS", "GitHub"]
 [extra]
 duration = 2023-01-10
 +++
