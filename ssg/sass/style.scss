@@ -191,40 +191,6 @@ td {
 .exp {
   margin: 1em 0 2em;
 
-  .exp-content {
-
-    a {
-      color: $light_blue;
-      text-decoration: none;
-      font-size: 0.9em;
-
-    }
-
-    a:visited {
-      color: $light_blue;
-    }
-
-    a::before {
-      content: '\f08E';
-      font-family: FontAwesome;
-      font-weight: normal;
-      font-style: normal;
-      margin: 0px 2px 0px 0px;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    h4,
-    h5,
-    h6 {
-      margin-top: 0.5em;
-      margin-bottom: 0;
-    }
-
-  }
-
   .tag-list {
     display: inline-block;
     padding: 0;
@@ -241,12 +207,34 @@ td {
 }
 
 .exp-content {
-  p {
-    // display: inline;
+  a {
+    color: $light_blue;
+    text-decoration: none;
+    font-size: 0.9em;
+
   }
 
-  h5 {
-    // display: inline;
+  a:visited {
+    color: $light_blue;
+  }
+
+  a::before {
+    content: '\f08E';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px 2px 0px 0px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
   }
 
 }
@@ -339,7 +327,7 @@ header {
   }
 }
 
-li.tag {
+.tag {
   display: inherit;
   margin: 0;
 
