@@ -2,7 +2,7 @@
 title = "halfedge lib"
 date = 2023-05-24
 [taxonomies]
-tags = ["Rust", "3D-modeling", "GitHub", "open-source"]
+tags = ["Rust", "3D-Modeling", "GitHub", "open-source"]
 [extra]
 duration = "ongoing"
 +++
