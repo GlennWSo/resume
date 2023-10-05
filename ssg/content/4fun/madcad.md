@@ -2,7 +2,7 @@
 title = "Python Cad Library"
 date = 2022-12-01
 [taxonomies]
-tags = ["Python", "Numpy", "PyTest", "Arrex", "open-source", "GitHub"]
+tags = ["Python", "Numpy", "PyTest", "open-source", "GitHub"]
 [extra]
 duration = "ongoing"
 +++
