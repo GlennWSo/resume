@@ -7,5 +7,5 @@ tags = ["HTML", "CSS", "Tera", "Zola", "SSG", "open-source", "GitHub"]
 duration = "ongoing"
 +++
 
-Glenn maintains his resume as website and the source code is available
+I maintain my resume as a website and the source code is available
 at [GitHub](https://github.com/GlennWSo/resume). 

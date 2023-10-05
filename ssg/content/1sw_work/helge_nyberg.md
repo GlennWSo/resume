@@ -7,9 +7,9 @@ tags = ["Arduino"]
 duration = 2019-08-01
 +++
 
-Helped **Helge Nyberg** a electric forklift for indoor use. 
-The forklift use force sensors instead of a conventional user interface.
+Helped **Helge Nyberg** develop an electric forklift for indoor use. 
+The forklift uses force sensors instead of a conventional user interface.
 
 ###### Role & Responsibilities
 
-Mechatronic design. Firmware for processing user input to actions and emulation of inertia.
+Firmware for processing user input to actions and emulation of inertia.

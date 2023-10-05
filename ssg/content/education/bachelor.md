@@ -7,4 +7,4 @@ tags = ["SolidWorks", "FEA", "MatLab", "Visual Basic", "PLC"]
 duration = 2017-06-01
 +++
 
-At **Jönköping University** he studied product development, materials engineering and design automation.
+At **Jönköping University** I studied product development, materials engineering and design automation.

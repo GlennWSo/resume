@@ -7,7 +7,7 @@ tags = ["SolidWorks"]
 duration = 2020-06-01
 +++
 
-Designed a disposable spotlight for gynecology examinations. 
+Designed a disposable flashlight for gynecology examinations. 
 
 ###### Role & Responsibilities
 
