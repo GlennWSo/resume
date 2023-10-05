@@ -2,7 +2,7 @@
 title = "MedTech Startup"
 date = 2020-12-01
 [taxonomies]
-tags = ["Python", "NumPy", "SciPy", "PyVista", "GitHub", "CI/CD", "Azure"]
+tags = ["Python", "NumPy", "SciPy", "PyVista", "GitHub", "CI/CD", "Azure", "PyTest", "MyPy"]
 [extra]
 duration = 2022-12-01
 +++
