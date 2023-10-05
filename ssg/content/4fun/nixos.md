@@ -7,4 +7,4 @@ tags = ["Linux", "Nix"]
 duration = "ongoing"
 +++
 
-Glenn use Linux for both work and personal projects. Currently he uses NixOS and benefits from the robust development environments it offer.
+I use Linux for both work and personal projects. Currently I use NixOS and benefits from the robust development environments it offers.

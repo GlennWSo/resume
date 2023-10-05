@@ -7,4 +7,4 @@ tags = ["Python", "Numpy", "PyTest", "open-source", "GitHub"]
 duration = "ongoing"
 +++
 
-Glenn contributes to the capabilities of [MADCAD](https://github.com/jimy-byerley/pymadcad), a opensource python CAD library.
+I contribute to the capabilities of [MADCAD](https://github.com/jimy-byerley/pymadcad), an opensource python CAD library.

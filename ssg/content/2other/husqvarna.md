@@ -12,4 +12,4 @@ controllers, HMI panels and motors used in handheld battery powered products.
 
 ###### Role & Responsibilities
 
-Coordinated product development between different **Husqvarna** sites and subcontractors. Mechanical design and config management of mechatronic components.
+Coordinated product development between different **Husqvarna** sites and subcontractors. Mechanical design and configuration management of mechatronic components.

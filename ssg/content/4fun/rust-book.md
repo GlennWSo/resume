@@ -7,4 +7,4 @@ tags = ["Rust"]
 duration = 2022-07-01
 +++
 
-Taught himself rust using the [Book](https://doc.rust-lang.org/book/) and fell in love.
+Taught myself rust using the [Book](https://doc.rust-lang.org/book/) and fell in love.
