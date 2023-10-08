@@ -7,4 +7,4 @@ tags = ["Linux", "Nix"]
 duration = "ongoing"
 +++
 
-I use Linux for both work and personal projects. Currently I use NixOS and benefits from the robust development environments it offers.
+Uses Linux for both work and personal projects. The Distrobution of choice is NixOS, a system that offers robust and reproduciable development environment amongst other things.

@@ -7,4 +7,4 @@ tags = ["SolidWorks", "CATIA", "FEA", "MatLab", "Visual Basic"]
 duration = 2018-06-01
 +++
 
-At **Jönköping University** I studied product development, materials engineering and design optimization.
+Studied product development, materials engineering and design optimization at **Jönköping University**

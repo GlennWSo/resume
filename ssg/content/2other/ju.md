@@ -7,7 +7,7 @@ tags = [ "SolidWorks", "MasterCam", "LabView" ]
 duration = 2016-09-01
 +++
 
-At **Jönköping University** I supported research activities as a lab-technician. 
+At **Jönköping University** he supported research activities as a lab-technician. 
 
 ###### Role & Responsibilities
 

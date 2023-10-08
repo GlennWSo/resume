@@ -7,5 +7,5 @@ tags = ["Rust", "USB", "nrf52", "stm32"]
 duration = 2022-10-01
 +++
 
-I made simple data acquisition firmware using rust for stm32 and nrf52 development boards. 
-As a compliment I also made a desktop app to plot values from the devices.
+Made some simple data acquisition firmware using rust for stm32 and nrf52 development boards. 
+As a compliment he also made a desktop app to plot values from the devices.

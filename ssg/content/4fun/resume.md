@@ -7,4 +7,4 @@ tags = ["HTML", "CSS", "Tera", "Zola", "SSG", "GitHub"]
 duration = "ongoing"
 +++
 
-I maintain my resume as a website.
+Glenn maintains his resume as a website.
