@@ -7,7 +7,7 @@ tags = ["Arduino", "SolidWorks" ]
 duration = 2022-02-01
 +++
 
-Developed **Multi4**, a device for taking biopsy samples for cancer-diagnostics.
+Developed, built prototypes and tested **Multi4**, a device for taking biopsy samples for cancer-diagnostics.
 
 ###### Role & Responsibilities
 

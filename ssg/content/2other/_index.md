@@ -1,8 +1,8 @@
 +++
-title = "Other Work"
+title = "Engineering"
 sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
 +++
 
-Professional experience without software development.
+Professional engineering experience without software development.
