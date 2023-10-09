@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://glennwso.github.io/resume/sitemap.xml
+Sitemap: https://cv.glennwso.com/sitemap.xml
