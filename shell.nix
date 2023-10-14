@@ -12,8 +12,12 @@ mkShell {
         buildPackages.marktext
         buildPackages.nodePackages.vscode-langservers-extracted
         buildPackages.zola
+        buildPackages.python311Packages.playwright
     ];
     
     name = "doc tools";
-    shellHook = " echo Entering documentation shell";
+    PLAYWRIGHT_BROWSERS_PATH=playwright-driver.browsers;
+    shellHook = ''
+        echo Entering documentation shell
+    '';
 }
