@@ -395,10 +395,7 @@ ul.tag-list {
   }
 
   #profile-img {
-    // margin-left: auto;
-    // margin-right: 2em;
-    display: inline-flex;
-    display: -webkit-inline-flex;
+    display: block;
     margin: 3px;
     border: 3px solid white;
     border-radius: 12px;
@@ -406,7 +403,11 @@ ul.tag-list {
     top: 0;
     left: 0;
     width: fit-content;
-    height: fit-content;
+    height: 230px; // wkhtmltopdf needs this...
+
+    img {
+      display: block;
+    }
   }
 
   @media print {
