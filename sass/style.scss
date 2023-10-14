@@ -408,6 +408,15 @@ ul.tag-list {
   @media print {
     color: $dark_blue;
     background: white;
+    display: -webkit-box;
+
+    #skills {
+      ul {
+        width: 80%;
+
+      }
+    }
+
 
     a {
       color: $dark_blue;
@@ -513,6 +522,15 @@ ul.tag-list {
 @media (max-width: 900px),
 print,
 (orientation: portrait) {
+
+  div {
+    -webkit-print-color-adjust: exact
+  }
+
+  div.page {
+    page-break-after: always;
+    break-inside: avoid;
+  }
 
   .wrapper {
     display: revert;
