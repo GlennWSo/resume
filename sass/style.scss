@@ -415,8 +415,11 @@ ul.tag-list {
         width: 80%;
 
       }
-    }
 
+      li.tag {
+        margin-top: 3mm;
+      }
+    }
 
     a {
       color: $dark_blue;
