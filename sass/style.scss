@@ -527,8 +527,12 @@ print,
     -webkit-print-color-adjust: exact
   }
 
+  div.exp-section {
+    page-break-inside: avoid;
+  }
+
   div.page {
-    page-break-after: always;
+    // page-break-after: always;
     break-inside: avoid;
   }
 
