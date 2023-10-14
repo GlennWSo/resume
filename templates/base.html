@@ -23,11 +23,13 @@
       <hr>
     </div>
   </div>
-  <p style="break-before: always;"></p>
-  <div id=sidebar>
+  <!-- <p style="page-break-before: always; page-break-after:always; display: block;"></p> -->
+  <div class="page" id=sidebar>
     <div class=header>
-      <div id="profile-join">
-        <img id="profile-img" src="{{ get_url(path="profile.jpg") }}" alt="profile-img">
+      <div id="profile-join" >
+        <span id="profile-img" style="background: url({{ get_url(path="profile.jpg") }}) no-repeat">
+          <img  src="{{ get_url(path="profile.jpg") }}" alt="profile-img" style="opacity: 0;">
+        </span>
       </div>
       <div class=contact>
         <h2>Lets Talk</h2>
