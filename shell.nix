@@ -12,7 +12,10 @@ mkShell {
         buildPackages.marktext
         buildPackages.nodePackages.vscode-langservers-extracted
         buildPackages.zola
-        buildPackages.python311Packages.playwright
+        # buildPackages.python311Packages.playwright
+        # buildPackages.python311Packages.selenium
+        # buildPackages.geckodriver
+        buildPackages.wkhtmltopdf-bin
     ];
     
     name = "doc tools";
