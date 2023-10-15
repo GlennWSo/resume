@@ -395,7 +395,7 @@ ul.tag-list {
   }
 
   #profile-img {
-    display: block;
+    display: inline-flex;
     margin: 3px;
     border: 3px solid white;
     border-radius: 12px;
@@ -414,6 +414,10 @@ ul.tag-list {
     color: $dark_blue;
     background: white;
     display: -webkit-box;
+
+    #profile-img {
+      display: block;
+    }
 
     #skills {
       ul {
