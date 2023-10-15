@@ -18,7 +18,7 @@ class Serve:
 
     def __enter__(self):
         self.process = serve_zola(self.interface, self.port)
-        sleep(1)
+        sleep(0.5)
 
     def __exit__(self, exc_type, exc_value, exc_tb):
         self.process.kill()
