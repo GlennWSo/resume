@@ -1,8 +1,8 @@
 +++
-title = "Education"
+title = "Formal Education"
 sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
 +++
 
-Formal higher education.
+Just a starting point...
