@@ -12,4 +12,4 @@ port = "1234"
 url = f"http://{interface}:{port}/"
 print("generating new print format")
 with Serve(interface, port):
-    print_page(url, "test.pdf")
+    print_page(url, "static/print.pdf")
