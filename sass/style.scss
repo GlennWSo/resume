@@ -565,3 +565,16 @@ print,
   }
 
 }
+
+@media screen {
+  .only-print {
+    display: none;
+  }
+
+}
+
+@media print {
+  .only-web {
+    display: none;
+  }
+}
