@@ -14,4 +14,4 @@ See the project sections for details.
 
 ###### Role & Responsibilities
 
-Product development, consulting. 
+Product development, consulting.
