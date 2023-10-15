@@ -2,3 +2,5 @@
 delete-all-deployments
 public
 
+#python stuff
+*__pycache__/

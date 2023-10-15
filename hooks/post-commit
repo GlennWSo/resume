@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo running post-commit amend
+if [ -e .commit ]
+	then rm .commit
+	python print.py
+	git add static/print.pdf
+	git commit --amend -C HEAD --no-verify
+else
+	echo "  noop"
+fi
+exit

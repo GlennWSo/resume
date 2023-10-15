@@ -1,0 +1,4 @@
+#!/bin/sh
+echo executing pre-commit hook in $PWD
+touch .commit
+exit

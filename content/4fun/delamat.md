@@ -1,5 +1,5 @@
 +++
-title = "Delamat.se"
+title = "delamat.se"
 date = 2023-09-04
 [taxonomies]
 tags = ["Rust", "CSS", "HTMX", "axum", "sqlx", "GitHub", "open-source"]

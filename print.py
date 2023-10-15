@@ -1,11 +1,15 @@
-from playwright.sync_api import sync_playwright
+import subprocess
+from serve import Serve
 
-playwright = sync_playwright().start()
 
-browser = playwright.chromium.launch()
-page = browser.new_page()
-page.goto("https://playwright.dev/")
-page.screenshot(path="example.png")
-browser.close()
+# depends on wkhtmltopdf
+def print_page(page: str, file: str):
+    _res = subprocess.run(["wkhtmltopdf", "--print-media-type", page, file])
 
-playwright.stop()
+
+interface = "127.0.0.1"
+port = "1234"
+url = f"http://{interface}:{port}/"
+print("generating new print format")
+with Serve(interface, port):
+    print_page(url, "static/print.pdf")
