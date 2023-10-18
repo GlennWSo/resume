@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     systems.url = "github:nix-systems/default";
-    devenv.url = "github:cachix/devenv";
+    devenv.url = "github:cachix/devenv/v0.6.3";
   };
 
   nixConfig = {
@@ -42,7 +42,7 @@
 
                   processes.zola-serve.exec = "zola serve"; 
                   enterShell = ''
-                    hello
+                     echo \"up\" will run zola dev server
                   '';
                 }
               ];
