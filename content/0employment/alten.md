@@ -7,7 +7,7 @@ tags = ["consulting"]
 duration = "ongoing"
 +++
 
-At Alten I have worked with wide range diffrent projects. 
+At Alten I have worked with wide range different projects. 
 Within product development I have worked with mechanical-design, electronics and software development.
 See the project sections for details.
 

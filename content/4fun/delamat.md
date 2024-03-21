@@ -7,6 +7,6 @@ tags = ["Rust", "CSS", "HTMX", "axum", "sqlx", "GitHub", "open-source"]
 duration = "ongoing"
 +++
 A sideproject where the plan is to make a website where users can share recipes and shopinglists. 
-The main purpse of this sideproject is learning how to use htmx and axum in practice. [Repo](https://github.com/GlennWSo/delamat). 
+The main purpose of this sideproject is learning how to use htmx and axum in practice. [Repo](https://github.com/GlennWSo/delamat). 
 Webbsite: *Not yet deployed.*
 

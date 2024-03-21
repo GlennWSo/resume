@@ -5,4 +5,4 @@ template = "blog.html"
 page_template = "blog-page.html"
 +++
 
-Varius for fun projects that have improved my skills.
+Various for fun projects that have improved my skills.
