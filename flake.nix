@@ -10,43 +10,46 @@
     extra-substituters = "https://devenv.cachix.org";
   };
 
-  outputs = { self, nixpkgs, devenv, systems, ... } @ inputs:
-    let
-      forEachSystem = nixpkgs.lib.genAttrs (import systems);
-    in
-    {
-      devShells = forEachSystem
-        (system:
-          let
-            pkgs = nixpkgs.legacyPackages.${system};
-            tools = with pkgs; [
-              pandoc
-              nodePackages.cspell
-              marktext
-              nodePackages.vscode-langservers-extracted
-              zola
-              wkhtmltopdf-bin
+  outputs = {
+    self,
+    nixpkgs,
+    devenv,
+    systems,
+    ...
+  } @ inputs: let
+    forEachSystem = nixpkgs.lib.genAttrs (import systems);
+  in {
+    devShells =
+      forEachSystem
+      (system: let
+        pkgs = nixpkgs.legacyPackages.${system};
+        tools = with pkgs; [
+          pandoc
+          nodePackages.cspell
+          typos
+          marktext
+          nodePackages.vscode-langservers-extracted
+          zola
+          wkhtmltopdf-bin
+        ];
+      in {
+        default = devenv.lib.mkShell {
+          inherit inputs pkgs;
+          modules = [
+            {
+              # https://devenv.sh/reference/options/
+              packages = tools;
+              env = {
+                PLAYWRIGHT_BROWSERS_PATH = pkgs.playwright-driver.browsers;
+              };
 
-            ];
-          in
-          {
-            default = devenv.lib.mkShell {
-              inherit inputs pkgs;
-              modules = [
-                {
-                  # https://devenv.sh/reference/options/
-                  packages = tools;
-                  env = {
-                    PLAYWRIGHT_BROWSERS_PATH=pkgs.playwright-driver.browsers;
-                  };
-
-                  processes.zola-serve.exec = "zola serve"; 
-                  enterShell = ''
-                     echo \"up\" will run zola dev server
-                  '';
-                }
-              ];
-            };
-          });
-    };
+              processes.zola-serve.exec = "zola serve";
+              enterShell = ''
+                echo \"up\" will run zola dev server
+              '';
+            }
+          ];
+        };
+      });
+  };
 }
