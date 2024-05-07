@@ -3,55 +3,34 @@
 
 {% block content %}
 <header>
-  <h3 id="my-title">Software Developer & Mechanical Engineer</h3> 
+  <h3 id="my-title">Software Developer & Mechanical Engineer</h3>
   <h1 id="my-name">Glenn Winbo Sondell</h1>
 </header>
 
+
 <div id=bio>
-  <h2 id="bio">About Me</h2>
-  <hr>
-  <p>I'm a mechanical engineer and a software developer.
-  My multidisciplinary background helps me understand the needs
-    and challenges that people of different backgrounds face. This makes me an
-    excellent developer, problem solver, communicator and team-player. </p>
-
-  <p> I can help you with anything from writing firmware in Rust to
-    machine learning in Python. I have great math skills and use
-    them to solve problems related to 3D graphics, modeling and physics
-    simulations.</p>
-
-  <h4>Background:</h4>
-  <p> I started out as a mechanical engineer, but I have changed tracks towards software
-    development. The reason behind this change was simple, I love to create things and learn about new technologies.
-    In particular I was drawn to software development because it allows for faster iterations.
-    Just compile and you get new a prototype. Even rust compiles faster than a 3D-printer! 
-  </p>
-  <p>  
-    <span hidden>I found my love for programming when I studied optimization and automation of mechanical design.</span>
-    While I have more experience using python, I prefer to use Rust whenever possible. Having used mypy in larger projects, 
-    I prefer to have strong typing built into the language itself.
-  </p>
+  {{ section.content | markdown(inline=true) | safe }}
 </div>
 
 <div id="exp-sections">
 
-    <!-- sort subsection by path to content -->
-    {% for sub_path in section.subsections | sort%}
+  <!-- sort subsection by path to content -->
+  {% for sub_path in section.subsections | sort%}
 
-    {% set section = get_section(path=sub_path) %}
-    <div class="exp-section">
-        <header>
-          <h2> {{section.title}} </h2>
-          <hr>
-        </header>
-      <div class="section-content">
-        {{ section.content | safe}}
-      </div>
-      {% for page in section.pages %}
-        {% include "exp.html" %}
-      {% endfor %}
+  {% set section = get_section(path=sub_path) %}
+  <div class="exp-section">
+    <header>
+      <h2> {{section.title}} </h2>
+      <hr>
+    </header>
+    <div class="section-content">
+      {{ section.content | safe}}
     </div>
+    {% for page in section.pages %}
+    {% include "exp.html" %}
     {% endfor %}
+  </div>
+  {% endfor %}
 
 </div>
 
