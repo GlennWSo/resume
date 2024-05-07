@@ -4,10 +4,10 @@
 ## About Me
 ---
 
-I'm a mechanical engineer and a software developer.
+I'm a mechanical engineer and a system developer.
 My multidisciplinary background helps me understand the needs
 and challenges that people of different backgrounds face. This makes me an
-excellent system developer, problem-solver and team-player. 
+excellent problem-solver and team-player. 
 
 
 #### Background:
