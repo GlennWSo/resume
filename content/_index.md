@@ -7,12 +7,14 @@
 I'm a mechanical engineer and a software developer.
 My multidisciplinary background helps me understand the needs
 and challenges that people of different backgrounds face. This makes me an
-excellent system developer, communicator and team-player. 
+excellent system developer, problem-solver and team-player. 
 
 
 #### Background:
-I started out as a mechanical engineer, but I have changed tracks towards electronics and software development.
-development. The reason behind this change was simple, I wanted to build a solarcar and so I did on the side of my mechanical studies. 
-After the solarcar was completed, I realized that a love tinkering electrical systems and to iterate on software.
+I started out as a mechanical engineer, but I have since then broadened my competence to include electronics and software.
+The reason behind this change was simple, I love to create things
+and learn about new technologies.  Through my experience I have realized what I love the
+most is tinkering on electrical systems and to iterate on software.
+
 
 
