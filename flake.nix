@@ -37,6 +37,7 @@
           zola
           bore-cli
           wkhtmltopdf-bin
+          python311
         ];
       in {
         default = pkgs.mkShell {
