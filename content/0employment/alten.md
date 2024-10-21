@@ -4,7 +4,7 @@ date = 2018-06-01
 [taxonomies]
 tags = ["consulting"]
 [extra]
-duration = "ongoing"
+duration = "2024-05-01"
 +++
 
 At Alten I have worked with wide range different projects. 
