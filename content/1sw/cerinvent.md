@@ -2,7 +2,7 @@
 title = "Desktop CAD App"
 date = 2022-08-01
 [taxonomies]
-tags = ["Rust" "Python", "NumPy", "SciPy", "PyQt", "PyMadCad", "Gmsh", "PyVista", "CATIA", "GitHub", "CI/CD"]
+tags = ["Rust", "Python", "NumPy", "SciPy", "PyQt", "PyMadCad", "Gmsh", "PyVista", "CATIA", "GitHub", "CI/CD"]
 [extra]
 duration = "ongoing"
 +++
