@@ -8,7 +8,7 @@ duration = "ongoing"
 +++
 
 
-I offer my services as freelancing konsultant within product developement and IT.
+I offer my services as a freelancing consultant within software- and product-development and IT.
 
 
 ###### Role & Responsibilities
