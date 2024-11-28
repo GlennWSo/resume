@@ -29,6 +29,7 @@
         };
         tools = with pkgs; [
           pandoc
+          texliveSmall
           nodePackages.cspell
           typos
           marktext

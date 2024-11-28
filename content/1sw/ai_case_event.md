@@ -4,7 +4,7 @@ date = 2022-06-01
 [taxonomies]
 tags = ["Python", "NumPy", "Pandas", "TensorFlow", "Keras", "Flask", "RNN",  "GitHub", "Docker", "DigitalOcean"]
 [extra]
-duration = "ongoing"
+duration = 2022-09-01
 +++
 
 Helped **Alten** attract students by preparing a workshop for Machine-Learning master students.
@@ -12,4 +12,4 @@ Helped **Alten** attract students by preparing a workshop for Machine-Learning m
 
 ###### Role & Responsibilities
 
-Preparation of source code and data for the event. Deployment example using Flask.
+Preparation of source code and data for the event. Deployment example using Flask.:w
