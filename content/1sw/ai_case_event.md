@@ -12,4 +12,4 @@ Helped **Alten** attract students by preparing a workshop for Machine-Learning m
 
 ###### Role & Responsibilities
 
-Preparation of source code and data for the event. Deployment example using Flask.:w
+Preparation of source code and data for the event. Deployed AI backend using Flask.
