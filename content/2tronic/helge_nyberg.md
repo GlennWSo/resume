@@ -2,7 +2,7 @@
 title = "Electric Forklift"
 date = 2019-03-01
 [taxonomies]
-tags = ["Arduino"]
+tags = ["Arduino", "c++"]
 [extra]
 duration = 2019-08-01
 +++

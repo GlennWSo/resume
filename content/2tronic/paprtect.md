@@ -2,7 +2,7 @@
 title = "Hygiene Device"
 date = 2021-05-01
 [taxonomies]
-tags = ["Arduino", "KiCad" ]
+tags = ["Arduino", "KiCad", "c++" ]
 [extra]
 duration = 2021-10-01
 +++
